@@ -1,5 +1,7 @@
 # StudyLog
 
+*Live at: https://neharikabonu.github.io/StudyLog-reactjs/*
+
 A simple and responsive **study time tracking web application** built with React.
 StudyLog helps users track their study sessions, monitor study time, and maintain a history of their learning activities.
 
