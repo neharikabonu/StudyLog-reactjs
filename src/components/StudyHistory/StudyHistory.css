@@ -1,0 +1,56 @@
+.study-history {
+  background-color: #f2f0eb;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 1px solid #c8b9a6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.study-history h2 {
+  margin-top: 0;
+  color: #292929;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100px;
+  overflow-y: scroll;
+  padding-right: 8px;
+}
+
+.history-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #c8b9a6;
+  border-radius: 8px;
+  min-height: 70px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+}
+
+.history-card h3,
+.history-card p {
+  margin: 0;
+}
+
+.history-card h3 {
+  margin-bottom: 5px;
+  color: #292929;
+}
+
+.history-card p {
+  color: #6b5b4d;
+  font-weight: 600;
+}
+
+.history-card small {
+  color: #8a8a8a;
+}

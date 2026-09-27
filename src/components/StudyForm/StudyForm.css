@@ -1,0 +1,74 @@
+.study-form-wrapper {
+  background-color: #f2f0eb;
+  color: black;
+  padding: 25px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #c8b9a6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.study-form-wrapper h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #292929;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.study-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.form-field input {
+  padding: 10px;
+  border: 1px solid #aaa29a;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #292929;
+}
+
+.form-field input::placeholder {
+  color: #8a8a8a;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #6b5b4d;
+  box-shadow: 0 0 0 2px rgba(107, 91, 77, 0.15);
+}
+
+.study-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #292929;
+  color: #f2f0eb;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.study-form button:hover {
+  background-color: #4a4038;
+}
+
+.study-form input:disabled,
+.study-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
